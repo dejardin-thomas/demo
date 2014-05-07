@@ -1,0 +1,13 @@
+{
+    "require": {
+        "phpunit/phpunit": "4.1.*",
+        "behat/behat": "2.4.*@stable",
+        "psr/log": "1.0.*"
+    },
+    "autoload": {
+        "psr-0": { "" : "lib/src/" }
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
